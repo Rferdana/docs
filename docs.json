@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF797B",
+    "light": "#F8F5EE",
+    "dark": "#607274"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -72,13 +72,13 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "href": "https://elata.mintlify.app/",
+          "icon": ""
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "href": "https://www.elata.bio/blog",
+          "icon": ""
         }
       ]
     }
@@ -114,9 +114,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/elata_bio",
+      "github": "https://github.com/elata-biosciences",
+      "linkedin": "https://linkedin.com/company/elata-biosciences"
     }
   }
 }

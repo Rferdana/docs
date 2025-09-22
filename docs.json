@@ -90,14 +90,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Explore Ecosystem",
+        "href": "https://www.elata.bio/ecosystem"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Apps Dashboard",
+      "href": "https://www.elata.bio/"
     }
   },
   "contextual": {

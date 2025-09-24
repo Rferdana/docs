@@ -26,10 +26,9 @@
             "pages": [
               "essentials/settings",
               {
-                "page": "ELTA token",
-                "dir": "elta-token",
+                "group": "ELTA token",
                 "pages": [
-                  "elta-overview"
+                  "elta-token/elta-overview"
                 ]
               }
             ]

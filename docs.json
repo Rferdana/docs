@@ -37,7 +37,8 @@
               {
                 "group": "ZORP Protocol",
                 "pages": [
-                  "zorp-protocol/zorp-intro"
+                  "zorp-protocol/zorp-intro",
+                  "zorp-protocol/zorp-function"
                 ]
               }
             ]

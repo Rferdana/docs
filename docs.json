@@ -81,12 +81,12 @@
         {
           "anchor": "Documentation",
           "href": "https://elata.mintlify.app/",
-          "icon": ""
+          "icon": "book"
         },
         {
           "anchor": "Blog",
           "href": "https://www.elata.bio/blog",
-          "icon": ""
+          "icon": "pencil and paper"
         }
       ]
     }

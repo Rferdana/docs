@@ -25,7 +25,13 @@
             "group": "Info Hub",
             "pages": [
               "essentials/settings",
-              "elta-token/elta-overview"
+              {
+                "page": "ELTA token",
+                "dir": "elta-token",
+                "pages": [
+                  "elta-overview"
+                ]
+              }
             ]
           },
           {

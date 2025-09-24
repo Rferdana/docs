@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Info Hub",
+            "group": "Main",
             "pages": [
               "essentials/settings",
               {
@@ -32,6 +32,12 @@
                   "elta-token/elta-distribution",
                   "elta-token/elta-release"
                   
+                ]
+              },
+              {
+                "group": "ZORP Protocol",
+                "pages": [
+                  "zorp-protocol/zorp-intro"
                 ]
               }
             ]

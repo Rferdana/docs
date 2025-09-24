@@ -1,0 +1,34 @@
+---
+title: "New file"
+description: "Description of your new file."
+---
+
+---
+
+![ZORP Git Hubimg(7) Sv](/images/ZORP-GitHubimg\(7\).svg)
+
+---
+
+## Introduction
+
+ZORP Protocol is a permissionless and open research data and reward distribution platform. ZORP enables a distributed set of participants to submit data (particularly EEG signatures or survey results) to managers, who moderate submissions and distribute token rewards.
+
+ZORP Protocol enables coordinated research efforts to be executed at massive scale: real human participants can now interface directly with experiment coordinators without needing prior authorization from third-party intermediaries such as Institutional Review Boards or the various Subcommittees that often prolong the R&D process.
+
+To address this immense challenge, Elata is building cryptographic frameworks into its data infrastructure, enabling participants to share sensitive information (such as EEG signatures or questionnaire results) without revealing Personally Identifiable Information (PII).
+
+In order to move the needle and goal is to develop public goods and protocols using the latest advances in cryptography and blockchain technology to better serve medical data collection. These range from relatively old and established use cases for cryptography, such as Pretty Good Privacy (PGP) or Public Key Encryption more generally, to blockchain technology itself, to newer advances such as Zero Knowledge Proofs.
+
+Our first protocol is called **ZORP**, or the recursive backronym Zorp Onchain Research Protocol.
+
+ZORP allows users to create a study, receive files from users for that study which are stored on Interplanetary File System (IPFS) via [Irys Network](https://irys.xyz/), and pay out a bounty to users who participated in that study. Files onchain are encrypted with the study administrators PGP key, so that they remain pseudonymous while participating in the study.
+
+Administrators can also review and flag invalid data so that this does not taint the bounty pool. The initial goal is to allow participants in pseudonymous decentralized trials to be rewarded for their efforts with bounties. Initially, we anticipate the main use case to be the collection of bespoke datasets not easily obtained otherwise, in particular for the training of machine learning models.
+
+As of September 2025, ZORP smart contract development has finished, and the contracts have been deployed on a public testnet, where they are being tested by our community. Pending further testing and an audit of the contracts, ZORP will be published on the [Base blockchain](http://base.org/) and be publicly available for anyone to create a study. It has been built to be as credibly neutral and as censorship-resistant as possible.
+
+There are essentially no leverage points apart from the front end to the contracts, which could easily be accessed by a user directly interacting with the contract from their wallet. In this respect, we wish ZORP to be a throwback to the “Cypherpunk” earlier days of cryptography and blockchain technology.
+
+Additionally, we are planning a ZORPv2 which will utilize Zero Knowledge Proofs. Apart from slight adjustments from customer feedback from ZORPv1, ZORPv2 would run on the Aztec L2 Network (or something else possibly) on Ethereum. Aztec Network and the more advanced cryptography features that its Noir language offer will allow greater privacy to users.
+
+For instance, an outside observer would be able to see that any specific user has participated in a study, but not any particular study, granting enhanced pseudonymity. We plan to launch the second version of ZORP pending further user acceptance of the first version of ZORP, and further maturity of the Aztec network.

@@ -28,7 +28,10 @@
               {
                 "group": "ELTA token",
                 "pages": [
-                  "elta-token/elta-overview"
+                  "elta-token/elta-overview",
+                  "elta-token/elta-distribution",
+                  "elta-token/elta-release"
+                  
                 ]
               }
             ]

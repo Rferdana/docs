@@ -25,13 +25,7 @@
             "group": "Info Hub",
             "pages": [
               "essentials/settings",
-              {
-                "page": "ELTA token",
-                "dir": "elta-token",
-                "pages": [
-                  "elta-overview"
-                ]
-              }
+              "elta-token/elta-overview"
             ]
           },
           {
@@ -108,15 +102,15 @@
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
   },
   "footer": {
     "socials": {

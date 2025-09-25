@@ -17,21 +17,19 @@
             "group": "Learn",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "problem",
+              "solution"
             ]
           },
           {
             "group": "Main",
             "pages": [
-              "essentials/settings",
               {
                 "group": "ELTA token",
                 "pages": [
                   "elta-token/elta-overview",
                   "elta-token/elta-distribution",
-                  "elta-token/elta-release"
-                  
+                  "elta-token/elta-release"                  
                 ]
               },
               {
@@ -40,7 +38,15 @@
                   "zorp-protocol/zorp-intro",
                   "zorp-protocol/zorp-function"
                 ]
+              },
+              {
+                "group": "Elata EEG",
+                "pages": [
+                  "zorp-protocol/zorp-intro",
+                  "zorp-protocol/zorp-function"
+                ]
               }
+
             ]
           },
           {

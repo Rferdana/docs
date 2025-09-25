@@ -33,6 +33,13 @@
                 ]
               },
               {
+                "group": "Governance",
+                "pages": [
+                  "governance/structure",
+                  "governance/teams"
+                ]
+              },
+              {
                 "group": "ZORP Protocol",
                 "pages": [
                   "zorp-protocol/zorp-intro",
@@ -42,8 +49,8 @@
               {
                 "group": "Elata EEG",
                 "pages": [
-                  "zorp-protocol/zorp-intro",
-                  "zorp-protocol/zorp-function"
+                  "elata-eeg/elata-eeg-overview",
+                  "elata-eeg/eeg-architecture"
                 ]
               }
 

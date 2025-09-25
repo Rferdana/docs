@@ -76,7 +76,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "For Developers",
         "groups": [
           {
             "group": "API documentation",
@@ -99,9 +99,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://elata.mintlify.app/",
-          "icon": "book-open"
+          "anchor": "Discord Community",
+          "href": "https://discord.com/invite/GqS9CstffK",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
@@ -124,7 +124,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Apps Dashboard",
+      "label": "Main Site",
       "href": "https://www.elata.bio/"
     }
   },

@@ -61,7 +61,8 @@
             "group": "Resources",
             "pages": [
               "resources/references",
-              "resources/smart-contracts"
+              "resources/smart-contracts",
+              "resources/media-assets"
             ]
           }
         ]

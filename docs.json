@@ -57,7 +57,9 @@
               {
                 "group": "Brain App Tokens",
                 "pages": [
-                  "brain-token-deployer/how-it-works"
+                  "brain-token-deployer/how-it-works",
+                  "brain-token-deployer/bonding-curve"
+
                 ]
               }
 

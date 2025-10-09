@@ -53,6 +53,12 @@
                   "elata-eeg/elata-eeg-overview",
                   "elata-eeg/eeg-architecture"
                 ]
+              },
+              {
+                "group": "Brain App Tokens",
+                "pages": [
+                  "brain-token-deployer/how-it-works"
+                ]
               }
 
             ]

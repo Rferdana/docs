@@ -17,6 +17,7 @@
             "group": "Learn",
             "pages": [
               "index",
+              "introduction",
               "problem",
               "solution",
               "how-elata-works"

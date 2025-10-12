@@ -34,7 +34,9 @@
                 "pages": [
                   "elta-token/elta-overview",
                   "elta-token/elta-distribution",
-                  "elta-token/elta-release"                  
+                  "elta-token/elta-release",
+                  "elta-token/veelta"                  
+
                 ]
               },
               {
@@ -59,7 +61,7 @@
                 ]
               },
               {
-                "group": "Brain App Tokens",
+                "group": "App Tokens",
                 "pages": [
                   "brain-token-deployer/how-it-works",
                   "brain-token-deployer/bonding-curve"

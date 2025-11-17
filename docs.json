@@ -79,21 +79,21 @@
         ]
       },
       {
-        "tab": "For Developers",
+        "tab": "For Builders",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Quickstart",
             "pages": [
-              "api-reference/introduction"
+              "builders/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Components",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "builders/components/get",
+              "builders/components/create",
+              "builders/components/delete",
+              "builders/components/webhook"
             ]
           }
         ]

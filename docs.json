@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "Elata Docs",
   "colors": {
     "primary": "#FF797B",
@@ -8,6 +8,9 @@
     "dark": "#607274"
   },
   "favicon": "/favicon.svg",
+  "background": {
+    "decoration": "gradient"
+  },
   "navigation": {
     "tabs": [
       {

@@ -7,27 +7,24 @@
     "light": "#F8F5EE",
     "dark": "#607274"
   },
-  "modeToggle": {
-  "isHidden": false
-},
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Get Started",
         "groups": [
           {
             "group": "Learn",
             "pages": [
-              "index",
-              "introduction",
-              "problem",
-              "solution",
-              "how-elata-works"
+              "home/elata",
+              "home/about-elata",
+              "home/problem",
+              "home/solution",
+              "home/how-elata-works"
             ]
           },
           {
-            "group": "Ecosystem Overview",
+            "group": "Quickstart",
             "pages": [
               {
                 "group": "ELTA token",
@@ -42,14 +39,14 @@
               {
                 "group": "Governance",
                 "pages": [
-                  "governance/structure",
-                  "governance/teams"
+                  "home/governance/structure",
+                  "home/governance/teams"
                 ]
               },
               {
                 "group": "ZORP Protocol",
                 "pages": [
-                  "zorp-protocol/zorp-intro",
+                  "home/zorp-protocol/zorp-intro",
                   "zorp-protocol/zorp-function"
                 ]
               },

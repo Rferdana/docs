@@ -30,6 +30,7 @@
             "group": "Quickstart",
             "pages": [
               "home/tournaments-intro",
+              "home/app-tokens",
               {
                 "group": "ELTA token",
                 "pages": [

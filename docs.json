@@ -4,7 +4,7 @@
   "name": "Elata Docs",
   "colors": {
     "primary": "#FF797B",
-    "light": "#F8F5EE",
+    "light": "#FF797B",
     "dark": "#607274"
   },
   "favicon": "/favicon.svg",

@@ -29,6 +29,7 @@
           {
             "group": "Quickstart",
             "pages": [
+              "home/tournaments-intro",
               {
                 "group": "ELTA token",
                 "pages": [

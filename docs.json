@@ -14,91 +14,90 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Get Started",
+        "tab": "Learn",
         "groups": [
           {
-            "group": "Learn",
+            "group": "Introduction",
             "pages": [
-              "home/elata",
-              "home/about-elata",
-              "home/problem",
-              "home/solution",
-              "home/how-elata-works"
+              "learn/protocol-overview",
+              "learn/how-it-works"
             ]
           },
           {
-            "group": "Quickstart",
+            "group": "Economics",
             "pages": [
-              "home/tournaments-intro",
-              "home/app-tokens",
-              {
-                "group": "ELTA token",
-                "pages": [
-                  "elta-token/elta-overview",
-                  "elta-token/elta-distribution",
-                  "elta-token/elta-release",
-                  "elta-token/veelta"                  
-
-                ]
-              },
-              {
-                "group": "Governance",
-                "pages": [
-                  "home/governance/structure",
-                  "home/governance/teams"
-                ]
-              },
-              {
-                "group": "ZORP Protocol",
-                "pages": [
-                  "home/zorp-protocol/zorp-intro",
-                  "zorp-protocol/zorp-function"
-                ]
-              },
-              {
-                "group": "Elata EEG",
-                "pages": [
-                  "elata-eeg/elata-eeg-overview",
-                  "elata-eeg/eeg-architecture"
-                ]
-              },
-              {
-                "group": "App Tokens",
-                "pages": [
-                  "brain-token-deployer/how-it-works",
-                  "brain-token-deployer/bonding-curve"
-
-                ]
-              }
-
+              "learn/tokenomics",
+              "learn/revenue-model"
             ]
           },
           {
-            "group": "Resources",
+            "group": "Governance",
             "pages": [
-              "resources/references",
-              "resources/smart-contracts",
-              "resources/media-assets"
+              "home/governance/structure",
+              "home/governance/teams"
             ]
           }
         ]
       },
       {
-        "tab": "For Builders",
+        "tab": "Builders Hub",
         "groups": [
           {
-            "group": "Quickstart",
+            "group": "Getting Started",
             "pages": [
-              "builders/introduction"
+              "builders/getting-started",
+              "builders/launch-your-app"
             ]
           },
           {
-            "group": "Components",
+            "group": "App Economics",
             "pages": [
-              "builders/components/get",
-              "builders/components/create",
-              "builders/components/delete",
-              "builders/components/webhook"
+              "builders/bonding-curve-economics",
+              "builders/grow-your-community"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "builders/api-overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "User Hub",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "users/explore-apps",
+              "users/buy-and-trade"
+            ]
+          },
+          {
+            "group": "Earning & Governance",
+            "pages": [
+              "users/stake-and-earn",
+              "users/veelta-governance"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Reference",
+            "pages": [
+              "resources/smart-contracts",
+              "resources/faq"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "resources/media-assets",
+              "resources/references"
             ]
           }
         ]
@@ -107,14 +106,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Discord Community",
+          "anchor": "App Store",
+          "href": "https://app.elata.bio",
+          "icon": "browser"
+        },
+        {
+          "anchor": "Discord",
           "href": "https://discord.com/invite/GqS9CstffK",
           "icon": "discord"
         },
         {
-          "anchor": "Blog",
-          "href": "https://www.elata.bio/blog",
-          "icon": "newspaper"
+          "anchor": "GitHub",
+          "href": "https://github.com/elata-biosciences",
+          "icon": "github"
         }
       ]
     }
@@ -126,27 +130,27 @@
   "navbar": {
     "links": [
       {
-        "label": "Explore Ecosystem",
-        "href": "https://www.elata.bio/ecosystem"
+        "label": "App Store",
+        "href": "https://app.elata.bio"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Main Site",
-      "href": "https://www.elata.bio/"
+      "label": "Launch App",
+      "href": "https://app.elata.bio/launch"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {

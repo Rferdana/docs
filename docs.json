@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Elata Docs",
   "colors": {
-    "primary": "#FF797B",
-    "light": "#FF797B",
+    "primary": "#7D66D9",
+    "light": "#7D66D9",
     "dark": "#607274"
   },
   "favicon": "/favicon.svg",

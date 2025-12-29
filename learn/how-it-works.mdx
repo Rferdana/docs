@@ -33,12 +33,12 @@ Where users actually do stuff.
 
 Where money moves.
 
-| Piece | Job |
-|-------|-----|
-| **Bonding Curves** | Set token prices based on supply sold |
-| **Staking Vaults** | Deposit tokens, earn fees |
-| **Fee Router** | Collect fees from all sources |
-| **Rewards Distributor** | Split fees 70/15/15 |
+| Piece                   | Job                                   |
+| ----------------------- | ------------------------------------- |
+| **Bonding Curves**      | Set token prices based on supply sold |
+| **Staking Vaults**      | Deposit tokens, earn fees             |
+| **Fee Router**          | Collect fees from all sources         |
+| **Rewards Distributor** | Split fees 70/15/15                   |
 
 ### Layer 3: Governance
 
@@ -87,11 +87,11 @@ Three sources:
 
 ### Where Fees Go
 
-| Who | Cut | Why |
-|-----|-----|-----|
-| **App stakers** | 70% | Reward people holding and staking app tokens |
-| **veELTA holders** | 15% | Reward long-term ELTA lockers |
-| **Treasury** | 15% | Fund development, grants, ops |
+| Who                | Cut | Why                                          |
+| ------------------ | --- | -------------------------------------------- |
+| **App stakers**    | 70% | Reward people holding and staking app tokens |
+| **veELTA holders** | 15% | Reward long-term ELTA lockers                |
+| **Treasury**       | 15% | Fund development, grants, ops                |
 
 ---
 
@@ -100,10 +100,12 @@ Three sources:
 ### Launch
 
 Developer pays **110 ELTA**:
+
 - 100 ELTA → seeds the bonding curve
 - 10 ELTA → treasury
 
 Gets:
+
 - 1 billion tokens total
 - 50% auto-staked (earning fees immediately)
 - 50% on the bonding curve for sale
@@ -118,6 +120,7 @@ Gets:
 ### Graduation
 
 Curve hits **42,000 ELTA** collected:
+
 - Liquidity auto-deploys to Uniswap
 - LP tokens locked 2 years (no rug pulls)
 - Free market trading begins
@@ -125,6 +128,7 @@ Curve hits **42,000 ELTA** collected:
 ### Live
 
 Post-graduation:
+
 - Trades on DEX
 - Staking rewards keep flowing
 - Creator can add tournaments, items
@@ -134,35 +138,33 @@ Post-graduation:
 
 ## Who Does What
 
-| Role | Does | Earns |
-|------|------|-------|
-| **Builders** | Launch apps | 50% of tokens (auto-staked) + fees |
-| **Token holders** | Buy/stake app tokens | 70% of trading fees |
-| **ELTA lockers** | Lock ELTA as veELTA | 15% of all protocol fees + votes |
-| **Users** | Play apps, enter tournaments | XP, early access, prizes |
+| Role              | Does                         | Earns                              |
+| ----------------- | ---------------------------- | ---------------------------------- |
+| **Builders**      | Launch apps                  | 50% of tokens (auto-staked) + fees |
+| **Token holders** | Buy/stake app tokens         | 70% of trading fees                |
+| **ELTA lockers**  | Lock ELTA as veELTA          | 15% of all protocol fees + votes   |
+| **Users**         | Play apps, enter tournaments | XP, early access, prizes           |
 
 ---
 
 ## Security
 
-| Protection | How |
-|------------|-----|
-| **LP locking** | Liquidity locked 2 years at graduation. Can't rug. |
-| **Immutable contracts** | No admin keys. Rules can't change post-deploy. |
-| **Timelock** | 48-hour delay on governance actions. |
-| **XP early access** | 6-hour window for XP holders before public launch. Stops bots. |
+| Protection              | How                                                            |
+| ----------------------- | -------------------------------------------------------------- |
+| **LP locking**          | Liquidity locked 2 years at graduation. Can't rug.             |
+| **Immutable contracts** | No admin keys. Rules can't change post-deploy.                 |
+| **Timelock**            | 48-hour delay on governance actions.                           |
+| **XP early access**     | 6-hour window for XP holders before public launch. Stops bots. |
 
 ---
 
 ## Next
 
 <CardGroup cols={2}>
-  <Card title="Tokenomics" icon="chart-pie" href="/learn/tokenomics">
+  <Card title="Tokenomics" icon="chart-pie" iconType="light" href="/learn/tokenomics">
     ELTA supply, distribution, veELTA math
   </Card>
-  <Card title="Revenue Model" icon="money-bill" href="/learn/revenue-model">
+  <Card title="Revenue Model" icon="money-bill" iconType="light" href="/learn/revenue-model">
     Fee mechanics and yield calculations
   </Card>
 </CardGroup>
-
-

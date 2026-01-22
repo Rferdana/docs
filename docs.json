@@ -9,7 +9,11 @@
   },
   "favicon": "/favicon.svg",
   "background": {
-    "decoration": "gradient"
+    "decoration": "gradient",
+    "color": {
+      "light": "#F8F5EE",
+      "dark": "#171717"
+    }
   },
   "navigation": {
     "tabs": [
@@ -161,5 +165,11 @@
   },
   "fonts": {
     "family": "Inter"
+  },
+  "styling": {
+    "latex": true
+  },
+  "icons": {
+    "library": "lucide"
   }
 }

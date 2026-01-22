@@ -40,7 +40,7 @@
         ]
       },
       {
-        "tab": "Builders Hub",
+        "tab": "Builders Reference",
         "groups": [
           {
             "group": "Getting Started",
@@ -124,20 +124,20 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/docs-light-mode.svg",
+    "dark": "/images/docsdarkmode.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "App Store",
+        "label": "Apps Ecosystem",
         "href": "https://app.elata.bio"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Launch App",
-      "href": "https://app.elata.bio/launch"
+      "label": "Main Site",
+      "href": "https://elata.bio/"
     }
   },
   "contextual": {
@@ -158,5 +158,8 @@
       "github": "https://github.com/elata-biosciences",
       "linkedin": "https://linkedin.com/company/elata-biosciences"
     }
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }

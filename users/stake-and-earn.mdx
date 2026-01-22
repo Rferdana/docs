@@ -8,7 +8,7 @@ description: "Earn protocol fees by staking your app tokens"
 Stake app tokens → earn 70% of trading fees. Your share is proportional to how much you've staked vs. total staked.
 
 <Info>
-  Every app has its own staking vault. Stake in as many as you want.
+  Every app has its own staking vault. Stake in as many as you want
 </Info>
 
 ---
@@ -41,14 +41,14 @@ $$
 
 ### Example
 
-| Metric | Value |
-|--------|-------|
-| Your stake | 10,000,000 tokens |
-| Total staked | 100,000,000 tokens |
-| Monthly trading volume | 50,000 ELTA |
-| Monthly fees (1%) | 500 ELTA |
-| Staker share (70%) | 350 ELTA |
-| **Your share (10%)** | **35 ELTA/month** |
+| Metric                 | Value              |
+| ---------------------- | ------------------ |
+| Your stake             | 10,000,000 tokens  |
+| Total staked           | 100,000,000 tokens |
+| Monthly trading volume | 50,000 ELTA        |
+| Monthly fees (1%)      | 500 ELTA           |
+| Staker share (70%)     | 350 ELTA           |
+| Your share (10%)       | 35 ELTA/month      |
 
 ---
 
@@ -57,6 +57,7 @@ $$
 ### Step 1: Hold App Tokens
 
 First, you need app tokens to stake:
+
 - Buy on bonding curve (if raising)
 - Trade on DEX (if live)
 - Receive from others
@@ -102,7 +103,7 @@ Rewards accumulate and can be claimed anytime.
 5. Confirm the transaction
 
 <Note>
-  Rewards are paid in ELTA, not the app token.
+  Rewards are paid in \$ELTA, the primary token of the Elata Ecosystem, not individual app tokens
 </Note>
 
 ### Claim Frequency
@@ -141,6 +142,7 @@ You can stake in multiple app vaults simultaneously.
 ### Managing Multiple Stakes
 
 Visit your [Dashboard](https://app.elata.bio/dashboard) to see:
+
 - All your staked positions
 - Rewards per vault
 - Total staked value
@@ -148,6 +150,7 @@ Visit your [Dashboard](https://app.elata.bio/dashboard) to see:
 ### Diversification
 
 Benefits of staking across apps:
+
 - Spread risk across tokens
 - Earn from multiple trading volumes
 - Support multiple communities
@@ -173,15 +176,15 @@ Benefits of staking across apps:
 
 ## Staking vs Holding
 
-| | Staking | Holding |
-|--|---------|---------|
-| **Earn fees** | ✓ Yes | ✗ No |
-| **Liquidity** | Can unstake anytime | Immediately tradeable |
-| **Voting power** | Yes (for some apps) | No |
-| **Risk** | Same token risk | Same token risk |
+|                  | Staking             | Holding               |
+| ---------------- | ------------------- | --------------------- |
+| **Earn fees**    | ✓ Yes               | ✗ No                  |
+| **Liquidity**    | Can unstake anytime | Immediately tradeable |
+| **Voting power** | Yes (for some apps) | No                    |
+| **Risk**         | Same token risk     | Same token risk       |
 
 <Tip>
-  If you plan to hold long-term, staking is almost always better than holding unstaked tokens.
+  If you plan to hold long-term, staking is almost always better than holding unstaked tokens
 </Tip>
 
 ---
@@ -194,11 +197,11 @@ Yields depend on:
 
 Higher volume = More fees = Higher yield
 
-| Volume (ELTA/month) | Fees | Staker Pool |
-|---------------------|------|-------------|
-| 10,000 | 100 | 70 ELTA |
-| 50,000 | 500 | 350 ELTA |
-| 100,000 | 1,000 | 700 ELTA |
+| Volume (ELTA/month) | Fees  | Staker Pool |
+| ------------------- | ----- | ----------- |
+| 10,000              | 100   | 70 ELTA     |
+| 50,000              | 500   | 350 ELTA    |
+| 100,000             | 1,000 | 700 ELTA    |
 
 ### Your Stake Percentage
 
@@ -221,15 +224,16 @@ Less total staked = Each staker gets more
 
 ## Comparing to veELTA
 
-| Feature | App Staking | veELTA |
-|---------|-------------|--------|
-| **What you stake** | App tokens | ELTA |
-| **Rewards from** | That app's fees | All protocol fees |
-| **Share of fees** | 70% | 15% |
-| **Lock-up** | None | 7 days - 2 years |
-| **Governance** | App-level | Protocol-level |
+| Feature            | App Staking     | veELTA            |
+| ------------------ | --------------- | ----------------- |
+| **What you stake** | App tokens      | ELTA              |
+| **Rewards from**   | That app's fees | All protocol fees |
+| **Share of fees**  | 70%             | 15%               |
+| **Lock-up**        | None            | 7 days - 2 years  |
+| **Governance**     | App-level       | Protocol-level    |
 
 You can do both:
+
 - Stake app tokens for app-specific rewards
 - Lock ELTA as veELTA for protocol-wide rewards
 
@@ -238,33 +242,37 @@ You can do both:
 ## Tax Considerations
 
 <Warning>
-  Staking rewards may be taxable income. Consult a tax professional for advice specific to your situation.
+  Staking rewards may be taxable income. Consult a tax professional for advice specific to your situation
 </Warning>
 
 Track:
+
 - Date and amount of each reward claim
 - Value of rewards at time of claim
 - Original cost basis of staked tokens
 
 ---
 
-## Troubleshooting
+## Troubleshooting Guide
 
 <AccordionGroup>
   <Accordion title="Can't Stake">
     Check that:
+
     - You have enough tokens in wallet
     - You've approved the vault contract
     - You're on the correct network (Base)
   </Accordion>
   <Accordion title="Rewards Not Showing">
     Rewards may take time to appear:
+
     - Wait for epoch to complete
     - Check you're looking at the right app
     - Ensure you were staked during trading activity
   </Accordion>
   <Accordion title="Claim Failed">
     If claim transaction fails:
+
     - Check gas balance
     - Try again with higher gas
     - Verify rewards are actually claimable
@@ -276,12 +284,10 @@ Track:
 ## Next Steps
 
 <CardGroup cols={2}>
-  <Card title="veELTA Governance" icon="lock" href="/users/veelta-governance">
-    Lock ELTA for protocol-wide rewards
+  <Card title="veELTA Governance" icon="lock" iconType="light" href="/users/veelta-governance">
+    Lock ELTA to access rewards that span the entire ecosystem
   </Card>
-  <Card title="Explore Apps" icon="compass" href="/users/explore-apps">
-    Find more apps to stake
+  <Card title="Explore Apps" icon="compass" iconType="light" href="/users/explore-apps">
+    Find apps to stake and use. 
   </Card>
 </CardGroup>
-
-

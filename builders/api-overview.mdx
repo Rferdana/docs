@@ -34,11 +34,11 @@ graph TB
 
 ### Integration Options
 
-| Method | Use Case | Complexity |
-|--------|----------|------------|
-| **App Store Embed** | Run app in Elata iframe | Low |
-| **REST API** | Read app data, metadata | Medium |
-| **Smart Contracts** | Direct blockchain interaction | High |
+| Method              | Use Case                      | Complexity |
+| ------------------- | ----------------------------- | ---------- |
+| **App Store Embed** | Run app in Elata iframe       | Low        |
+| **REST API**        | Read app data, metadata       | Medium     |
+| **Smart Contracts** | Direct blockchain interaction | High       |
 
 ---
 
@@ -87,6 +87,7 @@ GET /api/apps/{tokenAddress}
 ```
 
 Returns detailed app information including:
+
 - Basic metadata
 - Social links
 - Team members
@@ -108,22 +109,22 @@ For direct blockchain interaction, these are the key contracts:
 
 ### Core Contracts
 
-| Contract | Purpose |
-|----------|---------|
-| **ELTA** | Main protocol token |
-| **VeELTA** | Vote-escrowed staking |
-| **AppFactory** | Creates new apps |
-| **AppFactoryViews** | Read app data |
+| Contract            | Purpose               |
+| ------------------- | --------------------- |
+| **ELTA**            | Main protocol token   |
+| **VeELTA**          | Vote-escrowed staking |
+| **AppFactory**      | Creates new apps      |
+| **AppFactoryViews** | Read app data         |
 
 ### Per-App Contracts
 
-| Contract | Purpose |
-|----------|---------|
-| **AppToken** | Individual app token |
-| **AppBondingCurve** | Price discovery |
-| **AppStakingVault** | Staking for rewards |
-| **AppAccess1155** | NFT items |
-| **Tournament** | Competition infrastructure |
+| Contract            | Purpose                    |
+| ------------------- | -------------------------- |
+| **AppToken**        | Individual app token       |
+| **AppBondingCurve** | Price discovery            |
+| **AppStakingVault** | Staking for rewards        |
+| **AppAccess1155**   | NFT items                  |
+| **Tournament**      | Competition infrastructure |
 
 ### Contract Addresses
 
@@ -155,14 +156,14 @@ const appData = await client.readContract({
 
 ### Key Read Functions
 
-| Contract | Function | Returns |
-|----------|----------|---------|
-| AppFactory | `apps(uint256)` | App tuple (creator, token, vault, curve, etc.) |
-| AppFactory | `appCount()` | Total apps launched |
-| AppToken | `balanceOf(address)` | User token balance |
-| AppStakingVault | `balanceOf(address)` | User staked balance |
-| AppBondingCurve | `getPrice()` | Current curve price |
-| VeELTA | `balanceOf(address)` | User veELTA balance |
+| Contract        | Function             | Returns                                        |
+| --------------- | -------------------- | ---------------------------------------------- |
+| AppFactory      | `apps(uint256)`      | App tuple (creator, token, vault, curve, etc.) |
+| AppFactory      | `appCount()`         | Total apps launched                            |
+| AppToken        | `balanceOf(address)` | User token balance                             |
+| AppStakingVault | `balanceOf(address)` | User staked balance                            |
+| AppBondingCurve | `getPrice()`         | Current curve price                            |
+| VeELTA          | `balanceOf(address)` | User veELTA balance                            |
 
 ---
 
@@ -257,6 +258,7 @@ window.addEventListener('message', (event) => {
 ### Access User Data
 
 When embedded, your app receives:
+
 - Connected wallet address
 - App token balance
 - Staked amount
@@ -267,6 +269,7 @@ When embedded, your app receives:
 ## Webhooks (Coming Soon)
 
 Future webhook support for:
+
 - New token purchases
 - Staking events
 - Tournament entries
@@ -278,14 +281,15 @@ Future webhook support for:
 
 ### Official Packages
 
-| Package | Purpose | Status |
-|---------|---------|--------|
-| `@elata/sdk` | TypeScript SDK | Planned |
-| `@elata/react` | React hooks | Planned |
+| Package        | Purpose        | Status  |
+| -------------- | -------------- | ------- |
+| `@elata/sdk`   | TypeScript SDK | Planned |
+| `@elata/react` | React hooks    | Planned |
 
 ### Current Approach
 
 Use the App Store source as reference:
+
 - [elata-appstore](https://github.com/elata-biosciences/elata-appstore) - Frontend code
 - [elata-protocol](https://github.com/elata-biosciences/elata-protocol) - Smart contracts
 
@@ -328,14 +332,15 @@ elata-appstore/src/abi/
 
 ### API Limits
 
-| Endpoint | Limit |
-|----------|-------|
+| Endpoint       | Limit       |
+| -------------- | ----------- |
 | Read endpoints | 100 req/min |
-| Heavy queries | 10 req/min |
+| Heavy queries  | 10 req/min  |
 
 ### RPC Limits
 
 Use your own RPC provider for production:
+
 - [Alchemy](https://alchemy.com)
 - [Infura](https://infura.io)
 - [QuickNode](https://quicknode.com)
@@ -374,12 +379,10 @@ function PriceWidget({ curveAddress }) {
   <Card title="Protocol Repo" icon="github" href="https://github.com/elata-biosciences/elata-protocol">
     Smart contract source code
   </Card>
-  <Card title="Contract Addresses" icon="file-contract" href="/resources/smart-contracts">
+  <Card title="Contract Addresses" icon="file-contract" iconType="light" href="/resources/smart-contracts">
     Deployed contract addresses
   </Card>
-  <Card title="Discord" icon="discord" href="https://discord.gg/GqS9CstffK">
+  <Card title="Discord" icon="discord" iconType="light" href="https://discord.gg/GqS9CstffK">
     Developer support channel
   </Card>
 </CardGroup>
-
-

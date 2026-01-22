@@ -16,6 +16,37 @@
     }
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Explore",
+          "icon": "map",
+          "color": {
+            "light": "#7D66D9",
+            "dark": "#7D66D9"
+          },
+          "href": "https://app.elata.bio"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "color": {
+            "light": "#7D66D9",
+            "dark": "#7D66D9"
+          },
+          "href": "https://github.com/elata-biosciences"
+        },
+        {
+          "anchor": "Discord Community",
+          "icon": "discord",
+          "color": {
+            "light": "#5865F2",
+            "dark": "#5865F2"
+          },
+          "href": "https://discord.com/invite/GqS9CstffK"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Learn",
@@ -106,26 +137,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "App Store",
-          "href": "https://app.elata.bio",
-          "icon": "browser"
-        },
-        {
-          "anchor": "Discord",
-          "href": "https://discord.com/invite/GqS9CstffK",
-          "icon": "discord"
-        },
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/elata-biosciences",
-          "icon": "github"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/images/docs-light-mode.svg",

@@ -19,13 +19,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Explore",
-          "icon": "map",
+          "anchor": "Contact",
+          "icon": "mails",
           "color": {
             "light": "#7D66D9",
             "dark": "#7D66D9"
           },
-          "href": "https://app.elata.bio"
+          "href": "https://tally.so/r/ob2pAe"
         },
         {
           "anchor": "Blog",
@@ -47,92 +47,97 @@
         }
       ]
     },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Learn",
-        "groups": [
+        "language": "cn",
+        "tabs": [
           {
-            "group": "Introduction",
-            "pages": [
-              "learn/protocol-overview",
-              "learn/how-it-works"
+            "tab": "Learn",
+            "groups": [
+              {
+                "group": "Introduction",
+                "pages": [
+                  "learn/protocol-overview",
+                  "learn/how-it-works"
+                ]
+              },
+              {
+                "group": "Economics",
+                "pages": [
+                  "learn/tokenomics",
+                  "learn/revenue-model"
+                ]
+              },
+              {
+                "group": "Governance",
+                "pages": [
+                  "home/governance/structure",
+                  "home/governance/teams"
+                ]
+              }
             ]
           },
           {
-            "group": "Economics",
-            "pages": [
-              "learn/tokenomics",
-              "learn/revenue-model"
+            "tab": "Builders Reference",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "builders/getting-started",
+                  "builders/launch-your-app"
+                ]
+              },
+              {
+                "group": "App Economics",
+                "pages": [
+                  "builders/bonding-curve-economics",
+                  "builders/grow-your-community"
+                ]
+              },
+              {
+                "group": "Integration",
+                "pages": [
+                  "builders/api-overview"
+                ]
+              }
             ]
           },
           {
-            "group": "Governance",
-            "pages": [
-              "home/governance/structure",
-              "home/governance/teams"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Builders Reference",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "builders/getting-started",
-              "builders/launch-your-app"
-            ]
-          },
-          {
-            "group": "App Economics",
-            "pages": [
-              "builders/bonding-curve-economics",
-              "builders/grow-your-community"
+            "tab": "User Hub",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "users/explore-apps",
+                  "users/buy-and-trade"
+                ]
+              },
+              {
+                "group": "Earning & Governance",
+                "pages": [
+                  "users/stake-and-earn",
+                  "users/veelta-governance"
+                ]
+              }
             ]
           },
           {
-            "group": "Integration",
-            "pages": [
-              "builders/api-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "User Hub",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "users/explore-apps",
-              "users/buy-and-trade"
-            ]
-          },
-          {
-            "group": "Earning & Governance",
-            "pages": [
-              "users/stake-and-earn",
-              "users/veelta-governance"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Resources",
-        "groups": [
-          {
-            "group": "Reference",
-            "pages": [
-              "resources/smart-contracts",
-              "resources/faq"
-            ]
-          },
-          {
-            "group": "Community",
-            "pages": [
-              "resources/media-assets",
-              "resources/references"
+            "tab": "Resources",
+            "groups": [
+              {
+                "group": "Reference",
+                "pages": [
+                  "resources/smart-contracts",
+                  "resources/faq"
+                ]
+              },
+              {
+                "group": "Community",
+                "pages": [
+                  "resources/media-assets",
+                  "resources/references"
+                ]
+              }
             ]
           }
         ]
